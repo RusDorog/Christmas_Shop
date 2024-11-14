@@ -15,6 +15,7 @@ html {
 
 body {
     font-family: "Montserrat", serif;
+    font-family: "Allura", cursive;
 }
 
 a {
@@ -69,4 +70,71 @@ a {
 .header__link:hover {
     background: rgba(255, 70, 70, 0.1);
     color: rgb(255, 70, 70);
+}
+
+.hero {
+    padding: 60px 0px;
+    border-radius: 20px 20px 0px 0px;
+    min-width: 100%;
+    min-height: auto;
+    background: url(../images/bg-ball\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 70, 70);
+}
+.hero__container {
+    display: flex;
+    justify-content: center;
+}
+.hero__content {
+    max-width: 426px;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.hero__text {
+    color: rgb(255, 255, 255);
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 5%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.hero__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 18%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+.hero__button {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: rgb(24, 28, 41);
+    padding: 20px 32px;
+    margin-right: 95.5px;
+    margin-left: 95.5px;
+}
+.hero__desc {
+    color: rgb(255, 255, 255);
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 5%;
+    text-align: center;
+    margin-top: 32px;
 }
