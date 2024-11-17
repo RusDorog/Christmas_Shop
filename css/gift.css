@@ -1,5 +1,12 @@
 .surprise {
     border-radius: 20px;
+    min-width: 100%;
+    background: url(../images/bg-snow.png),
+    url(../images/bg-garland.png);
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: rgb(255, 70, 70);
 }
 .gifts__collection {
     display: flex;
