@@ -1,0 +1,38 @@
+.surprise {
+    border-radius: 20px;
+}
+.gifts__collection {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: uppercase;
+    max-width: 383px;
+    margin-bottom: 20px;
+}
+.gifts__banner {
+    display: flex;
+    justify-content: center;
+}
+.gifts__nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 8px;
+}
+.gifts__link {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    padding: 12px 20px 12px 20px;
+}
+.gifts__link:hover {
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px 20px 12px 20px;
+}
