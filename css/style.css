@@ -33,13 +33,13 @@ a {
 /* header */
 .header {
     background: rgb(255, 255, 255);
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
 .header__logo-link {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
     border: 1px dashed transparent;
 }
 .header__logo-link:hover {
@@ -129,11 +129,10 @@ a {
     font-size: 12px;
     font-weight: 600;
     line-height: 130%;
-    letter-spacing: 5%;
     text-transform: uppercase;
     border-radius: 20px;
     background: rgb(24, 28, 41);
-    padding: 20px 32px;
+    padding: 1.25rem 2rem;
     margin-right: 95.5px;
     margin-left: 95.5px;
     cursor: pointer;
@@ -225,7 +224,6 @@ a {
     font-size: 24px;
     font-weight: 400;
     line-height: 100%;
-    letter-spacing: 5%;
     text-align: center;
     margin-bottom: 12px;
 }
@@ -293,7 +291,6 @@ a {
     font-size: 24px;
     font-weight: 400;
     line-height: 100%;
-    letter-spacing: 5%;
     text-align: center;
     margin-bottom: 12px;
 }
@@ -303,7 +300,6 @@ a {
     font-size: 24px;
     font-weight: 600;
     line-height: 152%;
-    letter-spacing: 16%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 20px;
