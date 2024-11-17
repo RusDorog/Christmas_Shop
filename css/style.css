@@ -36,16 +36,22 @@ a {
     padding-top: 12px;
     padding-bottom: 12px;
 }
+.header__logo-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px dashed transparent;
+}
+.header__logo-link:hover {
+    box-sizing: border-box;
+    border: 1px dashed rgb(6, 164, 79);
+    border-radius: 4px;
+    background: rgba(6, 164, 79, 0.1);
+}
 .header__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.header__logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
 }
 .header__logo-text {
     color: rgb(24, 28, 41);
@@ -79,7 +85,8 @@ a {
     border-radius: 20px 20px 0px 0px;
     min-width: 100%;
     min-height: auto;
-    background: url(../images/bg-ball\ 1.png);
+    background: url(../images/bg-ball\ 1.png),
+    url(../images/bg-snow.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -149,6 +156,11 @@ a {
 .about {
     background-color: rgb(255, 70, 70);
     padding: 60px 0px;
+    background: url(../images/bg-snow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 70, 70);
 }
 .about__container {
     border-radius: 20px;
@@ -201,6 +213,11 @@ a {
 .slider {
     background-color: rgb(255, 70, 70);
     padding: 60px 0px;
+    background: url(../images/bg-snow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 70, 70);
 }
 .slider__subtitle {
     color: rgb(255, 255, 255);
@@ -264,6 +281,11 @@ a {
 .gifts {
     background-color: rgb(255, 70, 70);
     padding: 60px 0px;
+    background: url(../images/bg-snow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 70, 70);
 }
 .gifts__subtitle {
     color: rgb(255, 255, 255);
@@ -332,6 +354,12 @@ a {
     background-color: rgb(255, 70, 70);
     padding: 60px 0px;
     border-radius: 0px 0px 20px 20px;
+    background: url(../images/bg-snow.png),
+    url(../images/bg-forest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 70, 70);
 }
 .cta__container {
     padding: 60px 0px;
