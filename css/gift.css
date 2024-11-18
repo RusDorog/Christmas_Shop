@@ -1,12 +1,12 @@
-.surprise {
+.gifts__bg {
+    padding: 60px 0px;
     border-radius: 20px;
-    min-width: 100%;
-    background: url(../images/bg-snow.png),
-    url(../images/bg-garland.png);
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
     background-color: rgb(255, 70, 70);
+    min-width: 100%;
+    background-image: url(../images/bg-garland.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
 }
 .gifts__collection {
     display: flex;
@@ -19,9 +19,10 @@
     max-width: 383px;
     margin-bottom: 20px;
 }
-.gifts__content {
+.gifts__garland {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .gifts__nav {
     display: flex;
