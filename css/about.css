@@ -1,28 +1,21 @@
-/* about */
 .about {
     padding: 60px 0px;
-    background: url(../images/bg-snow.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgb(255, 70, 70);
+    background: url(../images/bg-snow.png),rgb(255, 70, 70);
 }
 .about__container {
-    border-radius: 20px;
-    background-color: white;
-    max-width: 1440px;
     display: flex;
     align-items: center;
-    gap: 60px;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-left: 60px;
+    max-width: 1276px;
+    min-height: 528px;
 }
 .about__info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 60px 0px;
-    margin-right: 227px;
-    margin-left: 60px;
-
+    max-width: 426px;
+    margin-right: 92px;
 }
 .about__slogan {
     color: rgb(255, 70, 70);
@@ -42,14 +35,18 @@
     margin-bottom: 20px;
 }
 .about__subtitle {
+    /* Paragraph */
     color: rgb(24, 28, 41);
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 148%;
 }
-.about__image {
-    border-radius: 20px;
-    margin-bottom: -8px;
+.about__bg {
     margin-right: -30px;
+    padding-left: 60px;
+}
+.about__image {
+    max-width: 638px;
+    border-radius: 20px;
 }
