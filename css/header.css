@@ -1,0 +1,49 @@
+/* header */
+.header {
+    background: rgb(255, 255, 255);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.header__logo-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px dashed transparent;
+}
+.header__logo-link:hover {
+    box-sizing: border-box;
+    border: 1px dashed rgb(6, 164, 79);
+    border-radius: 4px;
+    background: rgba(6, 164, 79, 0.1);
+}
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header__logo-text {
+    color: rgb(24, 28, 41);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+.header__link {
+    color: rgb(24, 28, 41);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 12px;
+    margin-right: 8px;
+}
+.header__link:last-child {
+    margin-right: 0;
+}
+.header__link:hover {
+    background: rgba(255, 70, 70, 0.1);
+    color: rgb(255, 70, 70);
+}

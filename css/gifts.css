@@ -1,0 +1,68 @@
+/* gifts */
+.gifts {
+    padding: 60px 0px;
+    background: url(../images/bg-snow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 70, 70);
+}
+.gifts__subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.gifts__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 152%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.gifts__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+.gift__card {
+    max-width: 310px;
+    border-radius: 20px;
+    background-color: rgb(236, 243, 248);
+}
+.card__box {
+    border: 1px dotted rgb(178, 185, 189);;
+}
+.card__info {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 112px;
+}
+.card__title {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.card__title {
+    color: var(--header-color);
+}
+.card__subtitle {
+    color: rgb(24, 28, 41);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 152%;
+    text-transform: uppercase;
+    margin: 0;
+}
