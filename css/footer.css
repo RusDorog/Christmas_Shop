@@ -53,6 +53,17 @@
     align-items: center;
     gap: 12px;
 }
+.footer__item {
+    border: 1px dashed transparent;
+}
+.footer__item:hover {
+    border: 1px dashed rgb(6, 164, 79);
+    border-radius: 4px;
+    background: rgba(6, 164, 79, 0.1);
+}
+.footer__item:first-child {
+    padding: 8px;
+}
 .footer__copyright {
     color: rgb(24, 28, 41);
     font-family: Montserrat;
