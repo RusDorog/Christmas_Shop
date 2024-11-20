@@ -2,7 +2,12 @@ html {
     position: relative;
     box-sizing: border-box;
   }
-  
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
   *,
   *::before,
   *::after {
@@ -70,7 +75,7 @@ html {
   }
  
   .container {
-    max-width: 1500px;
-    padding: 0 30px;
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
     margin: 0 auto;
   }
