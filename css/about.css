@@ -5,7 +5,6 @@
 .about__container {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding-left: 60px;
@@ -35,7 +34,6 @@
     margin-bottom: 20px;
 }
 .about__subtitle {
-    /* Paragraph */
     color: rgb(24, 28, 41);
     font-family: Montserrat;
     font-size: 16px;
@@ -43,7 +41,7 @@
     line-height: 148%;
 }
 .about__bg {
-    margin-right: -30px;
+    margin-right: -36px;
     padding-left: 60px;
 }
 .about__image {
