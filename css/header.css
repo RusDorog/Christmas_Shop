@@ -9,6 +9,9 @@
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
 }
+.header__logo {
+    justify-self: left;
+}
 .header__logo-link {
     display: flex;
     align-items: center;
