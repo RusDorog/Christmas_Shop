@@ -4,6 +4,11 @@
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
 }
+.header__container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+}
 .header__logo-link {
     display: flex;
     align-items: center;
@@ -16,11 +21,6 @@
     border-radius: 4px;
     background: rgba(6, 164, 79, 0.1);
 }
-.header__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .header__logo-text {
     color: rgb(24, 28, 41);
     font-family: Montserrat;
@@ -28,6 +28,9 @@
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
+}
+.header__navigation {
+    justify-self: right;
 }
 .header__link {
     color: rgb(24, 28, 41);
