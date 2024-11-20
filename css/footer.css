@@ -69,3 +69,6 @@
     line-height: 100%;
     text-align: center;
 }
+.footer__developer:hover {
+    color: rgb(255, 70, 70);
+}
