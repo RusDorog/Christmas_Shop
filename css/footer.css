@@ -19,7 +19,15 @@
     gap: 12px;
     border-radius: 20px;
     background: rgb(236, 243, 248);
+    border: 1px dashed transparent;
 }
+.footer__card:hover {
+    box-sizing: border-box;
+    border: 1px dashed rgb(6, 164, 79);
+    border-radius: 20px;
+    background: rgba(6, 164, 79, 0.1);
+}
+
 .footer__pik {
     border: 1px dotted rgb(178, 185, 189);
 }
