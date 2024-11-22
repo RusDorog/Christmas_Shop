@@ -30,14 +30,26 @@
     margin-bottom: 20px;
     gap: 8px;
 }
+.gifts__nav:last-child {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ff4646;
+    padding: 12px 20px;
+    border-radius: 12px;
+    padding: 12px 20px;
+    background: rgba(255, 70, 70, 0.1);
+}
 .gifts__link {
     color: rgb(255, 255, 255);
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 600;
-    line-height: 130%;
     text-transform: uppercase;
-    padding: 12px 20px 12px 20px;
+    padding: 12px 20px;
 }
 .gifts__link:hover {
     border-radius: 12px;
