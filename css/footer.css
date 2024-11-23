@@ -2,6 +2,8 @@
 .footer {
     background: rgb(255, 255, 255);
     padding: 60px 0px;
+    padding-left: calc(50% - 638px);
+    padding-right: calc(50% - 638px);
 }
 .footer__cards {
     display: grid;

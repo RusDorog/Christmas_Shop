@@ -8,6 +8,8 @@
     background-size: cover;
     background-position: center;
     background-color: rgb(255, 70, 70);
+    padding-left: calc(50% - 638px);
+    padding-right: calc(50% - 638px);
 }
 .cta__container {
     padding: 60px 0px;

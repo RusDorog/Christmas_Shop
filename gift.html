@@ -11,6 +11,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Christmas Shop - Новогодний сайт чудес</title>
+    <style>
+        :root {
+	--primary: #ff4646;
+	--dark: #181c29;
+	--static-white: #fff;
+	--content-background: #ecf3f8;
+	--tag-purple: #4361ff;
+	--tag-pink: #ff43f7;
+	--tag-green: #06a44f;
+	--primary-10: rgba(255, 70, 70, 0.1);
+	--static-white-20: rgba(255, 255, 255, 0.2);
+	--static-white-40: rgba(255, 255, 255, 0.4);
+	--overlay: rgba(24, 28, 41, 0.8);
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Allura", sans-serif;
+}
+    </style>
 </head>
 <body>
     <header class="header">
@@ -28,7 +45,7 @@
 
             <nav class="header__navigation navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__item">
+                    <li class="navigation__item gifts__navigation-item">
                         <a href="./gift.html" class="header__link">gifts</a>
                     </li>
 
@@ -54,11 +71,24 @@
                     <h1 class="gifts__collection">Achieve health, harmony, and inner strength</h1>
                 </div>
 
-                <nav class="gifts__nav">
-                    <a href="#" class="gifts__link">All</a>
-                    <a href="#" class="gifts__link">for work</a>
-                    <a href="#" class="gifts__link">for health</a>
-                    <a href="#" class="gifts__link">for harmony</a>
+                <nav class="gifts__navigation">
+                    <ul class="gifts__list">
+                        <li class="gifts__item">
+                            <a href="#" class="gifts__link">All</a>
+                        </li>
+
+                        <li class="gifts__item">
+                            <a href="#" class="gifts__link">for work</a>
+                        </li>
+
+                        <li class="gifts__item">
+                            <a href="#" class="gifts__link">for health</a>
+                        </li>
+
+                        <li class="gifts__item">
+                            <a href="#" class="gifts__link">for harmony</a>
+                        </li>
+                    </ul>
                 </nav>
                 <div class="gifts__cards">
                     <div class="gift__card">
