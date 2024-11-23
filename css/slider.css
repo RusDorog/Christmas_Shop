@@ -34,7 +34,7 @@
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .slider__slogan {
     color: rgb(255, 255, 255);
