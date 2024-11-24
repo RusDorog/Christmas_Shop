@@ -7,8 +7,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
-    padding-left: calc(50% - 638px);
-    padding-right: calc(50% - 638px);
 }
 .gifts__collection {
     display: flex;
@@ -17,6 +15,7 @@
     font-size: 32px;
     font-weight: 600;
     line-height: 150%;
+    text-align: center;
     text-transform: uppercase;
     max-width: 383px;
     margin-bottom: 20px;
@@ -60,4 +59,17 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--static-white);
+}
+
+@media (max-width: 768px) {
+
+}
+@media (max-width: 380px) {
+    .gifts__item {
+        padding: 12px 8px;
+        margin-right: 0px;
+    }
+    .gifts__item:hover {
+        padding: 12px 8px;
+    }
 }

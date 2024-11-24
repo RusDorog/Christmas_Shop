@@ -2,8 +2,6 @@
 .header {
     padding: 12px 0px;
     background: var(--static-white);
-    padding-left: calc(50% - 638px);
-    padding-right: calc(50% - 638px);
 }
 
 .header__container {
@@ -48,9 +46,6 @@
 .navigation__item:last-child {
     margin-right: 0;
 }
-/* .navigation__item:first-child {
-    background: var(--primary-10);
-} */
 .header__link {
     font-family: var(--font-family);
     font-weight: 600;
@@ -59,6 +54,11 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--dark);
+}
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    
 }
 
 

@@ -74,7 +74,18 @@ html {
   }
  
   .container {
-    padding-left: calc(50% - 720px);
-    padding-right: calc(50% - 720px);
+    max-width: 1440px;
+    padding: 0 82px;
     margin: 0 auto;
   }
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 8px;
+    }
+  }
+  @media (max-width: 380px) {
+    .container {
+      padding: 0 8px;
+    }
+  }
+

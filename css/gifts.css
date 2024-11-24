@@ -6,8 +6,6 @@
     background-size: cover;
     background-position: center;
     background-color: rgb(255, 70, 70);
-    padding-left: calc(50% - 638px);
-    padding-right: calc(50% - 638px);
 }
 .gifts__subtitle {
     color: rgb(255, 255, 255);
@@ -67,4 +65,19 @@
     line-height: 152%;
     text-transform: uppercase;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .gifts__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 60px;
+    }
+    @media (max-width: 380px) {
+        .gifts__cards {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+        }
+    }
 }
